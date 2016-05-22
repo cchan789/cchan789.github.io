@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Best Sushi</title>
   </head>
   <body>
     <header>
       <a href="img/sushi_platter.jpg">
-        <img src="img/sushi_platter.jpg" alt="enormous sushi platter">
+        <img src="img/sushi_platter.jpg" alt="enormous sushi platter" class="headerimage">
         <p>A beautiful picture illustrating the different kinds of sushi</p>
       </a>
     </header>
     <section>
-      <h1>Best Sushi in NYC</h1>
+      <h1 id="title">Best Sushi in NYC</h1>
       <p>Although sushi originates from Japan,
         NYC also has some of the best sushi restaurants
         in the world.</p>
       <p>Here are some of the best 15 sushi restaurants in NYC
         according to
         <a href="http://www.grubstreet.com/2015/11/new-york-best-sushi.html">Grub Street.</a></p>
-        <h1>Restaurant List</h1>
+        <h1 id="title">Restaurant List</h1>
         <ol>
           <li>
             <a href="http://15eastrestaurant.com/"><h3>15 East</h3>
@@ -117,7 +118,7 @@
             <th>Address</th>
             <th>Cost</th>
           </tr>
-          <tr>
+          <tr class="expensive">
             <td>15 East</td>
             <td>15 E. 15th St., New York, NY 10003 </td>
             <td>$140+</td>
@@ -137,7 +138,7 @@
             <td>73 Thompson St, New York, NY 10012</td>
             <td>$100-$150</td>
           </tr>
-          <tr>
+          <tr class="expensive">
             <td>Ichimura at Brushstroke</td>
             <td>30 Hudson St, New York, NY 10013</td>
             <td>$195+</td>
@@ -146,23 +147,22 @@
             <td>Jewel Bako</td>
             <td>239 E 5th St, New York, NY 10003</td>
             <td>$38-$150</td>
-          </tr>
-          <tr>
+           <tr>
             <td>Kura</td>
             <td>130 St Marks Pl, New York, NY 10003</td>
             <td>$65+</td>
           </tr>
-          <tr>
+          <tr class="expensive">
             <td>Neta</td>
             <td>61 W 8th St, New York, NY 10011</td>
             <td>$105, $145, $225</td>
           </tr>
-          <tr>
+          <tr class="expensive">
             <td>New York Sushi Ko</td>
             <td>91 Clinton St, New York, NY 10002</td>
             <td>$125, $175, $205</td>
           </tr>
-          <tr>
+          <tr class="expensive">
             <td>Soto</td>
             <td> 357 Ave of the Americas, New York, NY 10014</td>
             <td>$135-$185</td>
@@ -172,12 +172,12 @@
             <td>4 Stuyvesant St, New York, NY 10003</td>
             <td>$15</td>
           </tr>
-          <tr>
+          <tr class="expensive">
             <td>Shuko</td>
             <td>47 E 12th St, New York, NY 10003</td>
             <td>$135-$175</td>
           </tr>
-          <tr>
+          <tr class="expensive">
             <td>Sushi Azabu</td>
             <td>428 Greenwich St, New York, NY 10013</td>
             <td>$120-$200</td>
@@ -219,8 +219,9 @@
           <li>They did not use a form for the comments but instead used div</li>
         </ul>
       </section>
-      <footer>
-        <p>&copy; 2016 Charles Chan</p>
-      </footer>
-  </body>
-</html>
+          <footer>
+          Webpage by Charles Chan
+          <br>Data collected from GrubStreet
+          </footer>
+          </body>
+          </html>
