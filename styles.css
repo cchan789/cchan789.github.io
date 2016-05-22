@@ -1,0 +1,53 @@
+/*CSS STYLESHEET FOR SUSHI PAGE*/
+.headerimage{
+	width:auto;
+}
+body{
+	background-color: grey;
+}
+/*less clutered table*/
+td{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/*images size in body made to be more uniform*/
+img{
+	width: 800px;
+	height: auto;
+}
+/*used to tag elements in the table as expensive*/
+.expensive{
+border-style: ridge;
+border-color: red;
+}
+/*styleing for table*/
+table{
+	border-style: dotted;
+	border-width: 3px;
+	border-color: green;
+}
+/*footer with background image aligned to center*/
+footer{
+font-size: 10pt;
+text-align: center;
+background-image: url("http://bamboogarden.happytables.com/files/2012/06/green_bamboo_background-wide.jpg");
+color:lavender;
+}
+/*changes the color of a clicked link*/
+a:visited{
+	color:orange;
+}
+/*references an element by id*/
+#title{
+	color:purple;
+	text-decoration: underline;
+}
+/*for mobile devices*/
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        float:left;
+    }
+}
